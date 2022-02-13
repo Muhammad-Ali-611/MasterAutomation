@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>TestNG Report</title>
+    <style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+    <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+    <tr><th colspan="8">NYP Test Automation Script</th></tr>
+    <tr><td><a href="#t0">NYP Home</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">169,165</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NYP Test Automation Script</th></tr></tbody><tbody id="t0"><tr><th colspan="4">NYP Home &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">nypnavigation.TestAllFunctionality</td><td><a href="#m0">cleanUP</a></td><td rowspan="1">1643333669653</td><td rowspan="1">12</td></tr><tr><th colspan="4">NYP Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">nypnavigation.TestAllFunctionality</td><td><a href="#m1">newsFeatures</a></td><td rowspan="1">1643333569026</td><td rowspan="1">84184</td></tr></tbody>
+</table>
+<h2>NYP Home</h2><h3 id="m0">nypnavigation.TestAllFunctionality#cleanUP</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+    Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+    System info: host: &apos;matiurs-MBP.lan&apos;, ip: &apos;2603:7000:e200:1315:0:0:0:1176%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;15.0.2&apos;
+    Driver info: org.openqa.selenium.chrome.ChromeDriver
+    Command: [null, close {}]
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/f0/pp1t4wh50hz...}, goog:chromeOptions: {debuggerAddress: localhost:60524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60524/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+    at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+    at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+    at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+    at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:428)
+    at base.CommonAPI.cleanUP(CommonAPI.java:165)
+    at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+    at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+    at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+    ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">nypnavigation.TestAllFunctionality#newsFeatures</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestAllFunctionality: news Features<br/>AllFunctionality: run All The Feature Test<br/>AllFunctionality: select<br/>AllFunctionality: search<br/>AllFunctionality: select<br/>AllFunctionality: log In<br/>AllFunctionality: select<br/>AllFunctionality: sections Menu<br/>AllFunctionality: click On Section Menu<br/>AllFunctionality: click On Section Menu<br/>AllFunctionality: click On Section Menu</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (157, -20)
+    (Session info: chrome=97.0.4692.99)
+    Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+    System info: host: &apos;matiurs-MBP.lan&apos;, ip: &apos;2603:7000:e200:1315:0:0:0:1176%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;15.0.2&apos;
+    Driver info: org.openqa.selenium.chrome.ChromeDriver
+    Command: [493697021ccce85b6cddbf0ef77b4552, clickElement {id=0cc6ab8a-50e9-4f7f-8be5-827dc44b8212}]
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/f0/pp1t4wh50hz...}, goog:chromeOptions: {debuggerAddress: localhost:60524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60524/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+    Element: [[ChromeDriver: chrome on MAC (493697021ccce85b6cddbf0ef77b4552)] -&gt; css selector: .menu-toggle__title]
+    Session ID: 493697021ccce85b6cddbf0ef77b4552
+    at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+    at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+    at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+    at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+    at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+    at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+    at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+    at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+    at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+    at com.sun.proxy.$Proxy18.click(Unknown Source)
+    at pages.LandingPage.clickOnSectionMenu(LandingPage.java:22)
+    at pages.AllFunctionality.clickOnSectionMenu(AllFunctionality.java:41)
+    at pages.AllFunctionality.sectionsMenu(AllFunctionality.java:55)
+    at pages.AllFunctionality.select(AllFunctionality.java:76)
+    at pages.AllFunctionality.runAllTheFeatureTest(AllFunctionality.java:66)
+    at nypnavigation.TestAllFunctionality.newsFeatures(TestAllFunctionality.java:17)
+    at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+    at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+    at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+    ... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

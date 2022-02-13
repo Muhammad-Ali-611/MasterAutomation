@@ -1,0 +1,5 @@
+# Project exclude paths
+/Amazon/target/
+/Generic/target/
+/target/
+/WebAPI/target/
